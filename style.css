@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500&family=Poppins:ital,wght@0,100;0,200;0,600;0,700;0,800;1,100;1,200;1,300;1,500;1,600;1,700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    background-color: rgb(228, 193, 193);
+
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 225px;
+    /* overflow: hidden; */
+    position: relative;
+    margin: auto;
+    margin-top: 50px;
+
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+    padding: 2px 16px;
+}
+
+video {
+    width: auto;
+    height: 400px;
+    margin: 0;
+    padding: 0;
+}
+
+.para{
+    
+    font-family: 'Caveat', cursive;
+    /* font-family: 'Poppins', sans-serif; */
+    font-size: 20px;
+    margin-top: 3px;
+}
+img{
+    width: 120px;
+    height: 75pxpx;
+    position: absolute;
+    margin-top: -50px;
+    z-index: 1;
+}
+img:hover
+{
+    width: 130px;
+    
+}
